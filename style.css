@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-style: normal;
+  }
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffff;
+}
+
+.image-container {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.image-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.balance-container {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.balance-container h4 {
+    margin-bottom: 10px;
+}
+
+.balance {
+    font-size: 40px;
+    transform: scale(90);
+}
+
+.action-btn {
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.btn1 {
+    width: 170px;
+    height: 45px;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+.btn2 {
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-container {
+    position: relative;
+    width: 348px;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+
+.single-box1  h4 {
+    margin-top: 103px;
+    font-size: 25px;
+}
+
+.single-box1  span {
+    position: absolute;
+    bottom: 10px;
+}
+
+.single-box1 {
+    flex: 0 0 80%;
+    margin: 5px;
+    height: 230px;
+    background: #fffffe;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 10px;
+    animation: slide 6s infinite;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.single-box1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 14px;
+}
+
+@keyframes slide {
+    0%, 20% {
+        transform: translateX(0);
+    }
+    40%, 60% {
+        transform: translateX(-100%);
+    }
+    80%, 100% {
+        transform: translateX(-200%);
+    }
+}
+
+.transactions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.transact {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.see {
+    color: rgb(194, 189, 189);
+}
+
+.box-1 {
+    background-color: rgb(236, 234, 234);
+    margin: 10px 0px;
+    padding: 5px 15px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 23px 10px 0 10px;
+}
+
+.neg {
+    margin-top: 9px;
+    color: red;
+}
+
+.pos {
+    margin-top: 9px;
+    color: green;
+}
+
+
+.profile {
+    text-align: center;
+}
+
+.profile-box {
+    width: 94%;
+    height: 150px;
+    background: url(image.jpg);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 12px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-image img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    top: 10rem;
+    left: 11rem;
+}
+
+.profile-image .verify {
+    position: absolute;
+    top: 12.5rem;
+    left: 13.6rem;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-top: 65px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile-info p {
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+}
+
+.wallet {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 10px 18px;
+    width: 91%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-icon {
+    position: absolute;
+    right: 19.5rem;
+    top: 23rem;
+    margin-right: 20px;
+}
+
+
+.spec {
+    position: absolute;
+    right: 11.8rem;
+    top: 22.5rem;
+}
+
+.spec1 {
+    position: absolute;
+    right: 10rem;
+    top: 23.8rem;
+    font-weight: 700;
+}
+
+.wallet-spec {
+    color: grey;
+}
+
+.copy {
+    position: absolute;
+    right: 3rem;
+    top: 23rem;
+}
+
+.small {
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.p {
+    background-color: rgb(187, 245, 187);
+    color: green;
+    height: 8px;
+    font-size: 13px;
+    padding: 8px 8px 13px;
+    position: absolute;
+    top: 34rem;
+    right: 2rem;
+    border-radius: 6px;
+}
+
+.c {
+    background-color: rgb(187, 245, 187);
+    color: green;
+    height: 8px;
+    font-size: 13px;
+    padding: 8px 8px 13px;
+    position: absolute;
+    top: 40rem;
+    right: 2rem;
+    border-radius: 6px; 
+}
