@@ -207,11 +207,11 @@ body {
 
 .profile-image .verify {
     position: absolute;
-    top: 12.7rem;
-    left: 12.9rem;
+    top: 12.9rem;
+    left: 13.1rem;
     background-color: green;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
 
